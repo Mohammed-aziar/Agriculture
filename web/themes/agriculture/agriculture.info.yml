@@ -1,0 +1,23 @@
+name: agriculture
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+screenshot : screenshot.jpg
+libraries:
+  - agriculture/base
+  - agriculture/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - agriculture/user
+  core/drupal.dropbutton:
+    - agriculture/dropbutton
+  core/drupal.dialog:
+    - agriculture/dialog
+  file/drupal.file:
+    - agriculture/file
+  core/drupal.progress:
+    - agriculture/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.9'
