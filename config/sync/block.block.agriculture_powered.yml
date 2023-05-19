@@ -1,0 +1,22 @@
+uuid: 3e9b60ee-f8dd-42a9-b1fc-2b0deac9011f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - agriculture
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: agriculture_powered
+theme: agriculture
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

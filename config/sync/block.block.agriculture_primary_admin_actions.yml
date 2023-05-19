@@ -1,0 +1,20 @@
+uuid: 1dc4f4e6-b10f-4e09-9070-e2320a23ce98
+langcode: en
+status: true
+dependencies:
+  theme:
+    - agriculture
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: agriculture_primary_admin_actions
+theme: agriculture
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

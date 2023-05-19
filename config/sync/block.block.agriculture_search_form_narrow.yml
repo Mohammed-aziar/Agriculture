@@ -1,0 +1,23 @@
+uuid: 57b9bc18-737e-4eb9-af10-48e12d5ba70f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - agriculture
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: agriculture_search_form_narrow
+theme: agriculture
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

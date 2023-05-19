@@ -1,0 +1,22 @@
+uuid: e5b45600-5c16-46d9-8dcb-dc8d27081f9c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - agriculture
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: agriculture_secondary_local_tasks
+theme: agriculture
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }
