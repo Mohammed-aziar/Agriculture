@@ -22,6 +22,10 @@
 /web/sites/*/cache
 
 # Ignore drupal core (if not versioning drupal sources)
+web/libraries
+web/core
+web/themes/contrib
+web/profiles/contrib
 /web/modules/contrib/
 /web/vendor
 /web/core
